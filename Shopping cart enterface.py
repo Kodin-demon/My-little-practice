@@ -1,5 +1,4 @@
 # my little programm to help with organizing your shopping lists
-from typing import ItemsView
 
 items = []
 prices = []
