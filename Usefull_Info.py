@@ -56,3 +56,7 @@
 # Magic methods = Dunder methods //__// __init__, __str__, __eq__
 #                 automatically called by many of Python built-in operations
 #                 allow developers to define or customize the behavior of objects
+
+# @property = decorator used to define a method as a property //can be accessed like an attribute//
+#             add additional logic when read, write or delete attributes
+#             gives 'getter', 'setter' and 'deleter' method
