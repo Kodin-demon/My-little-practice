@@ -60,3 +60,12 @@
 # @property = decorator used to define a method as a property //can be accessed like an attribute//
 #             add additional logic when read, write or delete attributes
 #             gives 'getter', 'setter' and 'deleter' method
+
+# Decorator = function that extends the behavior of another function
+#             without modifying the base function
+#             pass the base function as an argument to the decorator
+
+# exception = an event that interrupts the flow of the program
+#             //ZeroDivisionError, TypeError, ValueError//
+#             try ; except ; finally
+
