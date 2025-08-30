@@ -69,3 +69,14 @@
 #             //ZeroDivisionError, TypeError, ValueError//
 #             try ; except ; finally
 
+# File detection = to be able to work with system we have to //import os// <- operating file
+#                  based on file extension we work we have to import different modules
+#                  import json | import csv
+
+# File writing = that can be done with //with// funktion.
+#                It will open file to work with it and close when we are done
+#                with open(file=,mode=) as file 
+#                "w" - write a file; 
+#                "x" - write file, that not exist; 
+#                "r" - read file; 
+#                "a" - append a file  
