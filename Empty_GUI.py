@@ -7,6 +7,10 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("GUI")
         self.setGeometry(700,350,600,500)
+        self.initUI()
+
+    def initUI():
+        pass
 
 def main():
     app = QApplication(sys.argv)
@@ -16,4 +20,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
