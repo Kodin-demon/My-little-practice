@@ -39,13 +39,17 @@ class MainWindow(QMainWindow):
         self.button_group_2.addButton(self.radio_5)
         # Connecting it to a function
         self.radio_1.toggled.connect(self.change_radio_button)
+        self.radio_2.toggled.connect(self.change_radio_button)
+        self.radio_3.toggled.connect(self.change_radio_button)
+        self.radio_4.toggled.connect(self.change_radio_button)
+        self.radio_5.toggled.connect(self.change_radio_button)
 
     def change_radio_button(self):
 
         radio_button = self.sender()
         if radio_button.isChecked():
             print(f"You choose: {radio_button.text()}")
-        #^^ This all should tell us which button was chosen, but it doesn't work correctly
+        #^^ This all should tell us which button was chosen
 
 def main():
     app = QApplication(sys.argv)
@@ -55,4 +59,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
